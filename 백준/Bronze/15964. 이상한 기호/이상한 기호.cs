@@ -5,12 +5,12 @@ public class Program
 
     static void Main(string[] args)
     {
-        int numA;
-        int numB;
-        int result;
-        int[] input;
+        long numA;
+        long numB;
+        long result;
+        long[] input;
 
-        input = Array.ConvertAll(SR.ReadLine().Split(), int.Parse);
+        input = Array.ConvertAll(SR.ReadLine().Split(), long.Parse);
         numA = input[0];
         numB = input[1];
 
